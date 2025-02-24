@@ -945,7 +945,6 @@ PRODUCT_PACKAGES += \
     libar-acdb \
     libar-gpr \
     libar-gsl \
-    libar-pal \
     libats \
     libaudio_log_utils \
     libaudioroute_ext \
@@ -1289,6 +1288,7 @@ PRODUCT_PACKAGES += \
     libancbase \
     libapengine \
     libappclassifier \
+    libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
