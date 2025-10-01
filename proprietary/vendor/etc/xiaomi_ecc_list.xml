@@ -718,8 +718,8 @@
     <!-- Add for Brazil operator xiaomi -->
 
     <!-- Add for Colombia operator xiaomi-->
-    <EccEntry Ecc="123" Category="0" Condition="1" Plmn = "732 111" />
-    <EccEntry Ecc="123" Category="0" Condition="1" Plmn = "732 103" />
+    <EccEntry Ecc="123" Category="2" Condition="1" Plmn = "732 111" />
+    <EccEntry Ecc="123" Category="2" Condition="1" Plmn = "732 103" />
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn = "732 165" />
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn = "732 123" />
     <EccEntry Ecc="123" Category="2" Condition="1" Plmn = "732 130" />
