@@ -544,6 +544,8 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
+                "libnativewindow",
             ],
         },
         android_arm64: {
@@ -556,6 +558,8 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
+                "libnativewindow",
             ],
         },
     },
@@ -773,6 +777,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
             ],
         },
         android_arm64: {
@@ -784,6 +789,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "liblog",
             ],
         },
     },
@@ -10029,6 +10035,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libadreno_utils",
+                "libbase",
                 "libgsl",
                 "libz",
                 "liblog",
