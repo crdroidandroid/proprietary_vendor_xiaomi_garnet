@@ -382,6 +382,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libCB.so",
             ],
             shared_libs: [
+                "libadreno_utils",
                 "libcutils",
                 "liblog",
                 "libgsl",
@@ -409,6 +410,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libcutils",
+                "libadreno_utils",
                 "liblog",
                 "libgsl",
                 "libutils",
@@ -499,6 +501,8 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
+                "libbase",
+                "libbinder_ndk",
             ],
         },
         android_arm64: {
@@ -519,12 +523,15 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
+                "libbase",
+                "libbinder_ndk",
             ],
         },
     },
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
