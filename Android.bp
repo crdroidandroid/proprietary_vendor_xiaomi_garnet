@@ -10073,6 +10073,27 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libPipeline_plugin",
+    srcs: ["proprietary/vendor/lib64/egl/libPipeline_plugin.so"],
+    vendor: true,
+    relative_install_path: "egl",
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+}
+
+cc_prebuilt_library_shared {
+    name: "libgamepoweroptfeature",
+    srcs: ["proprietary/vendor/lib64/libgamepoweroptfeature.so"],
+    vendor: true,
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+}
+
+cc_prebuilt_library_shared {
     name: "jcos_nq_client-v1",
     owner: "xiaomi",
     strip: {
