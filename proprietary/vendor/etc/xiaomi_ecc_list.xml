@@ -473,10 +473,12 @@
     <!-- Add for slovenia operator xiaomi-->
 
     <!-- Add for Palestine operator xiaomi-->
-    <EccEntry Ecc="100" Category="0" Condition="2" Plmn = "425 FFF" />
-    <EccEntry Ecc="101" Category="0" Condition="2" Plmn = "425 FFF" />
-    <EccEntry Ecc="102" Category="0" Condition="2" Plmn = "425 FFF" />
+    <EccEntry Ecc="100" Category="1" Condition="2" Plmn = "425 FFF" />
+    <EccEntry Ecc="101" Category="2" Condition="2" Plmn = "425 FFF" />
+    <EccEntry Ecc="102" Category="4" Condition="2" Plmn = "425 FFF" />
     <EccEntry Ecc="1221" Category="0" Condition="2" Plmn = "425 FFF" />
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn = "425 FFF" />
+    <EccEntry Ecc="911" Category="0" Condition="1" Plmn = "425 FFF" />
 
     <!-- Add for tunisia operator xiaomi-->
     <EccEntry Ecc="190" Category="0" Condition="2" Plmn = "605 FFF" />
