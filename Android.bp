@@ -20308,68 +20308,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqesdk",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqesdk.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libjsoncpp",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqesdk_manager",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqesdk_manager.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libcrypto",
-                "libjsoncpp",
-                "libminkdescriptor",
-                "libminksocket_vendor",
-                "libqcbor",
-                "libbinder",
-                "libbinder_ndk",
-                "vendor.qti.qesdsys-V1-ndk_platform",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqisl",
     owner: "xiaomi",
     strip: {
@@ -28135,120 +28073,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.qesdhal@1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.qesdhal@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.qesdhal@1.1-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.qesdhal@1.1-impl.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libutils",
-                "vendor.qti.qesdhal@1.0",
-                "vendor.qti.qesdhal@1.1",
-                "liblog",
-                "libcutils",
-                "libcrypto",
-                "libjsoncpp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.qesdhal@1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.qesdhal@1.1.so",
-            ],
-            shared_libs: [
-                "vendor.qti.qesdhal@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.qesdsys-V1-ndk_platform",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.qesdsys-V1-ndk_platform.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.bgservice@1.0-impl",
     owner: "xiaomi",
     strip: {
@@ -32075,44 +31899,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "modemManager",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/modemManager",
-            ],
-            shared_libs: [
-                "libavservices_minijail",
-                "libcutils",
-                "libdiag",
-                "liblog",
-                "libhidlbase",
-                "libbinder",
-                "libjsoncpp",
-                "libqesdk",
-                "libqti_vndfwk_detect_vendor",
-                "libutils",
-                "vendor.qti.data.factory@2.3",
-                "vendor.qti.hardware.data.lce@1.0",
-                "vendor.qti.latency@2.0",
-                "vendor.qti.latency@2.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "msm_irqbalance",
     owner: "xiaomi",
     target: {
@@ -32503,36 +32289,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "qesdk-manager",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/qesdk-manager",
-            ],
-            shared_libs: [
-                "libqesdk_manager",
-                "vendor.qti.qesdhal@1.1-impl",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libavservices_minijail",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "qmi_test_mt_client_init_instance",
     owner: "xiaomi",
     target: {
@@ -32857,40 +32613,6 @@ cc_prebuilt_binary {
                 "libcutils",
                 "liblog",
                 "libmdmdetect",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "sensors-qesdk",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/sensors-qesdk",
-            ],
-            shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
-                "liblog",
-                "libdiag",
-                "libsnsapi",
-                "libssc",
-                "libsensorslog",
-                "libcutils",
-                "libqesdk",
-                "libjsoncpp",
-                "libavservices_minijail",
                 "libc++",
                 "libc",
                 "libm",
