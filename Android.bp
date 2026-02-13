@@ -29757,6 +29757,15 @@ dex_import {
 }
 
 dex_import {
+    name: "mirilhook",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/mirilhook.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
     name: "qcrilhook",
     owner: "xiaomi",
     jars: [
