@@ -10,6 +10,9 @@ offlineLogNumber=14
 raiserecoverysigabrt=TRUE
 offlineLoggerEnableBackupLog=FALSE
 
+#Resort the sensor data
+enableResortSensorData=TRUE
+
 #CAMX and CHI trace
 traceGroupsEnable=0
 enableChiTrace=FALSE
@@ -184,3 +187,13 @@ minReprocessInputWidth=0x1FFF
 minReprocessInputHeight=0x1FFF
 
 halBufferCacheMax=8
+
+#eeprom backup
+enableEEPROMBackup=TRUE
+
+WatermarkVersion=3.002
+FilterVersion=3.002
+
+#tuning load ansync when probe
+LoadTuningDataManagerAsync=TRUE
+

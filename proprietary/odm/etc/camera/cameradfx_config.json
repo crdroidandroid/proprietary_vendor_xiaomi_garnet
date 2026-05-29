@@ -1,0 +1,121 @@
+{
+    "SENSORNAME_ROLEID_MAP":[
+        {
+            "sensorName": "garnet_sunny_s5khp3_wide_i",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_sunny_s5khp3_p24c256f_wide_i_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_sunny_s5khp3_gt9764ber_wide_i_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_sunny_s5khp3_ak7323_wide_i_ois",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_ofilm_s5khp3_wide_ii",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_ofilm_s5khp3_gt24p256h_wide_ii_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_ofilm_s5khp3_gt9764ber_wide_ii_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_ofilm_s5khp3_ak7323_wide_ii_ois",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_aac_ov64b40_wide_i",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_aac_ov64b40_gt24p128e_wide_i_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_aac_ov64b40_dw9800v_wide_i_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_aac_ov64b40_ak7323_wide_i_ois",
+            "roleID": 0
+        },
+        {
+            "sensorName": "garnet_sunny_ov16a1q_front_i",
+            "roleID": 1
+        },
+        {
+            "sensorName": "garnet_sunny_ov16a1q_gt24p64e_front_i_eeprom",
+            "roleID": 1
+        },
+        {
+            "sensorName": "garnet_ofilm_ov16a1q_front_ii",
+            "roleID": 1
+        },
+        {
+            "sensorName": "garnet_ofilm_ov16a1q_gt24p64e_front_ii_eeprom",
+            "roleID": 1
+        },
+        {
+            "sensorName": "garnet_sunny_s5k3p9sp04_front_iii",
+            "roleID": 1
+        },
+        {
+            "sensorName": "garnet_sunny_s5k3p9sp04_gt24p64e_front_iii_eeprom",
+            "roleID": 1
+        },
+        {
+            "sensorName": "garnet_ofilm_s5k3p9sp04_front_iiii",
+            "roleID": 1
+        },
+        {
+            "sensorName": "garnet_ofilm_s5k3p9sp04_gt24p64e_front_iiii_eeprom",
+            "roleID": 1
+        },
+        {
+            "sensorName": "garnet_sunny_imx355_ultra_i",
+            "roleID": 21
+        },
+        {
+            "sensorName": "garnet_sunny_imx355_p24c64f_ultra_i_eeprom",
+            "roleID": 21
+        },
+        {
+            "sensorName": "garnet_ofilm_imx355_ultra_ii",
+            "roleID": 21
+        },
+        {
+            "sensorName": "garnet_ofilm_imx355_p24c64e_ultra_ii_eeprom",
+            "roleID": 21
+        },
+         {
+            "sensorName": "garnet_sunny_ov02b10_macro_i",
+            "roleID": 22
+        },
+        {
+            "sensorName": "garnet_sunny_ov02b10_gt24p64e_macro_i_eeprom",
+            "roleID": 22
+        },
+        {
+            "sensorName": "garnet_ofilm_ov02b10_macro_ii",
+            "roleID": 22
+        },
+        {
+            "sensorName": "garnet_ofilm_ov02b10_gt24p64e_macro_ii_eeprom",
+            "roleID": 22
+        }
+    ],
+
+    "TOMBSTONE_FUNCTION":{
+        "isEnable": true,
+        "fileNumber": 20
+    }
+}

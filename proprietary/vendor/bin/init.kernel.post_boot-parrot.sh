@@ -102,6 +102,7 @@ echo 20000000 > /proc/sys/walt/sched_task_unfilter_period
 # Enable conservative pl
 echo 1 > /proc/sys/walt/sched_conservative_pl
 
+
 # N16 set watermark_scale_factor && set swappiness 120
 ProductName=`getprop ro.product.name`
 if [ "$ProductName" == "garnet" ] ; then

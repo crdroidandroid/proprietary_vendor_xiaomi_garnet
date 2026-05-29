@@ -10,6 +10,9 @@ offlineLogNumber=14
 raiserecoverysigabrt=TRUE
 offlineLoggerEnableBackupLog=FALSE
 
+#Resort the sensor data
+enableResortSensorData=TRUE
+
 #CAMX and CHI trace
 traceGroupsEnable=0
 enableChiTrace=FALSE
@@ -197,3 +200,12 @@ multiCameraSWFrameSyncType=SOFSync
 # For CTS Reprocess Size
 minReprocessInputWidth=0x1FFF
 minReprocessInputHeight=0x1FFF
+
+#eeprom backup
+enableEEPROMBackup=TRUE
+
+#tuning load ansync when probe
+LoadTuningDataManagerAsync=TRUE
+
+WatermarkVersion=3.002
+FilterVersion=3.002
