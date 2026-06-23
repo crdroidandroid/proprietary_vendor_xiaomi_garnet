@@ -30885,6 +30885,7 @@ prebuilt_etc_xml {
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
     filename_from_src: true,
+    enabled: false,
     sub_dir: "vintf/manifest",
     soc_specific: true,
 }
